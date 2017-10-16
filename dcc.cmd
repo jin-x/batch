@@ -3,7 +3,7 @@ if [%cmdextversion%] == [] goto NoCmdExt
 setlocal EnableExtensions
 if errorlevel 1 goto NoCmdExt
 
-set DEBUG=1
+set DEBUG=0
 
 set (c)=DCC.CMD [Delphi Compiling Batch], v1.10 (c) 2017 by Jin X (jin.x@sources.ru)
 

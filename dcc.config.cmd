@@ -14,24 +14,24 @@ set defversion=102
 set defbits=32
 
 :: Delphi main paths
-set delphipath6=%ProgramFiles(x86)%\Borland\Delphi6
-set delphipath7=%ProgramFiles(x86)%\Borland\Delphi7
-set delphipath2005=%ProgramFiles(x86)%\Borland\Delphi2005
-set delphipath2006=%ProgramFiles(x86)%\Borland\Delphi2006
-set delphipath2007=%ProgramFiles(x86)%\CodeGear\RAD Studio\5.0
-set delphipath2009=%ProgramFiles(x86)%\CodeGear\Delphi2009
-set delphipath2010=%ProgramFiles(x86)%\Embarcadero\Delphi2010
-set delphipathXE=%ProgramFiles(x86)%\Embarcadero\DelphiXE
-set delphipathXE2=%ProgramFiles(x86)%\Embarcadero\DelphiXE2
-set delphipathXE3=%ProgramFiles(x86)%\Embarcadero\DelphiXE3
-set delphipathXE4=%ProgramFiles(x86)%\Embarcadero\DelphiXE4
-set delphipathXE5=%ProgramFiles(x86)%\Embarcadero\DelphiXE5
-set delphipathXE6=%ProgramFiles(x86)%\Embarcadero\DelphiXE6
-set delphipathXE7=%ProgramFiles(x86)%\Embarcadero\DelphiXE7
-set delphipathXE8=%ProgramFiles(x86)%\Embarcadero\DelphiXE8
-set delphipath10=%ProgramFiles(x86)%\Embarcadero\Delphi10_Seattle
-set delphipath101=%ProgramFiles(x86)%\Embarcadero\Studio\18.0
-set delphipath102=%ProgramFiles(x86)%\Embarcadero\Studio\19.0
+set delphipath6=%ProgramFiles(x86)%\RAD Studio\Delphi6
+set delphipath7=%ProgramFiles(x86)%\RAD Studio\Delphi7
+set delphipath2005=%ProgramFiles(x86)%\RAD Studio\Delphi2005
+set delphipath2006=%ProgramFiles(x86)%\RAD Studio\Delphi2006
+set delphipath2007=%ProgramFiles(x86)%\RAD Studio\Delphi2007
+set delphipath2009=%ProgramFiles(x86)%\RAD Studio\Delphi2009
+set delphipath2010=%ProgramFiles(x86)%\RAD Studio\Delphi2010
+set delphipathXE=%ProgramFiles(x86)%\RAD Studio\DelphiXE
+set delphipathXE2=%ProgramFiles(x86)%\RAD Studio\DelphiXE2
+set delphipathXE3=%ProgramFiles(x86)%\RAD Studio\DelphiXE3
+set delphipathXE4=%ProgramFiles(x86)%\RAD Studio\DelphiXE4
+set delphipathXE5=%ProgramFiles(x86)%\RAD Studio\DelphiXE5
+set delphipathXE6=%ProgramFiles(x86)%\RAD Studio\DelphiXE6
+set delphipathXE7=%ProgramFiles(x86)%\RAD Studio\DelphiXE7
+set delphipathXE8=%ProgramFiles(x86)%\RAD Studio\DelphiXE8
+set delphipath10=%ProgramFiles(x86)%\RAD Studio\Delphi10_Seattle
+set delphipath101=%ProgramFiles(x86)%\RAD Studio\Delphi101_Berlin
+set delphipath102=%ProgramFiles(x86)%\RAD Studio\Delphi102_Tokyo
 
 :: Delphi compiler executable filename
 set defdelphiexe_32=bin\dcc32.exe
