@@ -3,9 +3,9 @@ if [%cmdextversion%] == [] goto NoCmdExt
 setlocal EnableExtensions
 if errorlevel 1 goto NoCmdExt
 
-set DEBUG=0
+set DEBUG=1
 
-set (c)=DCC.CMD [Delphi Compiling Batch], v1.10 (c) 2017 by Jin X (jin.x@sources.ru), http://xk7.ru/p/b
+set (c)=DCC.CMD [Delphi Compiling Batch], v1.10 (c) 2017 by Jin X (jin.x@sources.ru)
 
 :: VERSION HISTORY
 ::
@@ -23,7 +23,7 @@ set (c)=DCC.CMD [Delphi Compiling Batch], v1.10 (c) 2017 by Jin X (jin.x@sources
 ::     add hyphen '-' after '@' or '@@' if you don't want to use any options instead of command line parameters (like '@-call MyDelphi.bat' or '@@-call MyDelphi.bat')
 :: [+] Option settings 'delphioptVERSION_BITS', 'defdelphiopt_BITS', 'delphiideoptVERSION' and 'defdelphiideopt' can be set as single hyphen '-' to cancel options (and don't use 'defXXX' options);
 ::     this rule doesn't apply to 'extradelphiopt' and 'extradelphiideopt' or any other settings
-:: [-] Fixed some bugs (e.g. '/ca' and '/cb' options worked vice versa) and some minor internal changes are made; one russian string is translated into English :)
+:: [-] Fixed some bugs (e.g. '/ca' and '/cb' options worked vice versa) and many internal changes are made; one russian string is translated into English :)
 ::
 :: v1.00 (10.10.2017 and earlier)
 :: [!] The first version!
@@ -276,7 +276,7 @@ echo ---------------------------------------------------------------------------
 echo Your command processor doesn't support extensions and/or delayed expansion!
 echo ---------------------------------------------------------------------------
 pause > nul
-exit /b
+exit
 
 :Pause ok/err
 set dopause=1
